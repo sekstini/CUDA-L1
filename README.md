@@ -13,7 +13,7 @@
 
 <img src="assets/ip_v2.png" height="160" alt="CUDA-L1" align="left">
 <h2>CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</h2>
-<br clear="left"/>
+
 
 ## Introduction
 
