@@ -117,7 +117,6 @@ We employ contrastive learning with execution-time rewards, training the model t
 </table>
 </div>
 
----
 
 #### Cross-GPU Performance
 
