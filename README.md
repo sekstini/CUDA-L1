@@ -1,24 +1,22 @@
 <div align="center">
   <picture>
-      <img src="assets/header.png" width="70%" alt="CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning">
+      <img src="assets/header.png" width="40%" alt="CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning">
   </picture>
 </div>
 
 <hr>
 
-<div align="center" style="line-height: 1;">
-  <a href="https://github.com/deepreinforce-ai/CUDA-L1/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"/></a>
-</div>
 
-
-<p align="center">
-<b>🏠&nbsp;&nbsp;<a href="https://deep-reinforce.com/">Project Page</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>🔥&nbsp;&nbsp;<a href="https://deepreinforce-ai.github.io/cudal1_blog/">Demo</a></b>
+<p align="center" style="line-height: 2;">
+<b><a href="https://github.com/deepreinforce-ai/CUDA-L1/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" style="vertical-align: middle;"/></a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>🏠&nbsp;&nbsp;<a href="https://deep-reinforce.com/">Project Page</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>🔥&nbsp;&nbsp;<a href="https://deepreinforce-ai.github.io/cudal1_blog/">Demo</a></b>
 </p>
 
-<div align="center">
-  <picture>
-      <img src="assets/ip_v2.png" height="120" alt="CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning">
-  </picture>
+
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="assets/ip_v2.png" height="160" alt="CUDA-L1">
+  <div style="margin-left: 20px;">
+    <h2>CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</h2>
+  </div>
 </div>
 
 ## Introduction
