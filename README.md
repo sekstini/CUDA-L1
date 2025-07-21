@@ -17,7 +17,7 @@
 
 <div align="center">
   <picture>
-      <img src="assets/ip_v2.png" style="max-height: 90px; width: auto;" alt="CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning">
+      <img src="assets/ip_v2.png" height="120" alt="CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning">
   </picture>
 </div>
 
