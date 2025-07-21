@@ -8,21 +8,23 @@
 
 
 <p align="center">
-<a href="https://github.com/deepreinforce-ai/CUDA-L1/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" style="vertical-align: middle;"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>🏠&nbsp;&nbsp;<a href="https://deep-reinforce.com/">Project Page</a></b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a></b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<b>🔥&nbsp;&nbsp;<a href="https://deepreinforce-ai.github.io/cudal1_blog/">Demo</a></b>
+<a href="https://github.com/deepreinforce-ai/CUDA-L1/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"/></a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>🏠&nbsp;&nbsp;<a href="https://deep-reinforce.com/">Project Page</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>📄&nbsp;&nbsp;<a href="https://arxiv.org/abs/xxxx.xxxxx">Paper</a></b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <b>🔥&nbsp;&nbsp;<a href="https://deepreinforce-ai.github.io/cudal1_blog/">Demo</a></b>
 </p>
 
-
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="assets/ip_v2.png" height="160" alt="CUDA-L1" style="display: block; flex-shrink: 0;">
-  <h2 style="margin: 0; line-height: 1.2;">CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</h2>
+<div style="display: flex; align-items: center; gap: 20px; width: 100%;">
+  <img src="assets/ip_v2.png" height="160" alt="CUDA-L1" style="flex: 0 0 auto;">
+  <h2 style="
+    margin: 0; 
+    flex: 1;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.3;
+  ">
+    CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning
+  </h2>
 </div>
-
 
 ## Introduction
 
