@@ -1066,6 +1066,7 @@ def eval_kernel_against_ref(
                 with torch.cuda.stream(current_stream):
                     start_event.record(current_stream)
                     original_model(*inputs)
+                    torch.cuda.synchronize(device=device)
                     end_event.record(current_stream)
                 torch.cuda.synchronize(device=device)
                 original_time = start_event.elapsed_time(end_event)
@@ -1077,6 +1078,7 @@ def eval_kernel_against_ref(
                 with torch.cuda.stream(current_stream):
                     start_event.record(current_stream)
                     custom_model(*inputs)
+                    torch.cuda.synchronize(device=device)
                     end_event.record(current_stream)
                 torch.cuda.synchronize(device=device)
                 custom_time = start_event.elapsed_time(end_event)
@@ -1088,6 +1090,7 @@ def eval_kernel_against_ref(
                 with torch.cuda.stream(current_stream):
                     start_event.record(current_stream)
                     custom_model(*inputs)
+                    torch.cuda.synchronize(device=device)
                     end_event.record(current_stream)
                 torch.cuda.synchronize(device=device)
                 custom_time = start_event.elapsed_time(end_event)
@@ -1098,6 +1101,7 @@ def eval_kernel_against_ref(
                 with torch.cuda.stream(current_stream):
                     start_event.record(current_stream)
                     original_model(*inputs)
+                    torch.cuda.synchronize(device=device)
                     end_event.record(current_stream)
                 torch.cuda.synchronize(device=device)
                 original_time = start_event.elapsed_time(end_event)
@@ -1540,7 +1544,7 @@ def load_cuda_file(PATH_TO_CUDA_FILE):
 
 
 if __name__ == "__main__":
-    PATH_TO_CUDA_FILE = "YOUR_FOLDER/rtx_3090.json"
+    PATH_TO_CUDA_FILE = "optimized_cuda_code/rtx_3090.json"
     cuda_data_folder = os.path.dirname(PATH_TO_CUDA_FILE)
 
     cuda_dict_ = load_cuda_file(PATH_TO_CUDA_FILE)
